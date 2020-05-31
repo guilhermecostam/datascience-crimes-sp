@@ -23,3 +23,9 @@ st.sidebar.info("Foram carregadas {} linhas.".format(df.shape[0]))
 if st.sidebar.checkbox('Ver tabelas com dados'):
     st.header('Raw Data')
     st.write(df)
+
+df.time = pd.to_datetime(df.time)
+ano_selecionado = st.sidebar.slider("Escolha um ano", 2010, 2018, 2015)
+df_selecionado = df[df.time.dt.year == ano_selecionado]
+
+st.map(df_selecionado)
