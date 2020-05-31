@@ -3,12 +3,16 @@
 Data Science dos crimes em São Paulo
 </h1>
 
-<p align="center">Dashboard interativo de Data Science usando conjunto de dados da criminalidade em São Paulo</p>
+<p align="center">Dashboard interativo de Data Science usando conjunto de dados da criminalidade em São Paulo.<br> Meu primeiro Data Science com ajuda do curso do <a href="https://github.com/carlosfab">Sigmoidal.</a></p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
+</p>
+
+<p align="center">
+  <img alt="App Demo" src="http://arioliveira.duckdns.org:3110/alunos/Guiga/captuda_datascience.PNG">
 </p>
 
 <hr />
