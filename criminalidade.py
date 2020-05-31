@@ -17,5 +17,9 @@ st.markdown(
     """
 )
 
-if st.checkbox('Ver tabelas com dados'):
+#sidebar
+st.sidebar.info("Foram carregadas {} linhas.".format(df.shape[0]))
+
+if st.sidebar.checkbox('Ver tabelas com dados'):
+    st.header('Raw Data')
     st.write(df)
