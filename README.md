@@ -11,10 +11,6 @@ Data Science dos crimes em São Paulo
   </a>
 </p>
 
-<p align="center">
-  <img alt="App Demo" src="http://arioliveira.duckdns.org:3110/alunos/Guiga/captuda_datascience.PNG">
-</p>
-
 <hr />
 
 ## Recursos
